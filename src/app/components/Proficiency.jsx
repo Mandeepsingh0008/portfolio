@@ -15,9 +15,9 @@ const Progress = ({ value }) => (
 
 export default function ProficiencyPage() {
   return (
-    <div className="flex flex-col items-center text-center px-4 sm:px-8 py-8 mt-10 lg:mt-16 h-[42rem]">
+    <div className="flex flex-col items-center text-center px-4   lg:mt-16 h-[42rem] sm:h-[47rem] mt-[4.5rem]">
       <motion.h1
-        className="text-3xl sm:text-4xl font-extrabold text-white mb-6 sm:mb-8 mt-7"
+        className="text-3xl sm:text-4xl font-extrabold text-white mb-6 sm:mb-8 mt-10"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -55,7 +55,7 @@ export default function ProficiencyPage() {
         <img
           src="robot.png"
           alt="Automation illustration"
-          className="w-[16rem] sm:w-[20rem] lg:w-[22rem] mt-6 sm:mt-8 drop-shadow-lg rounded-[6rem] sm:rounded-[8rem] lg:rounded-[10rem]"
+          className="w-[20rem] sm:w-[20rem] lg:w-[22rem] mt-[4.5rem] sm:mt-8 drop-shadow-lg rounded-[7rem] sm:rounded-[8rem] lg:rounded-[10rem]"
         />
       </motion.div>
     </div>

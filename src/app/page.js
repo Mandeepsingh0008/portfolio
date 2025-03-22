@@ -15,7 +15,7 @@ export default function Home() {
    <Experience/>
    <Proficiency/>
    <Project/>
-   {/* <Contact/> */}
+   <Contact/>
    </div>
   );
 }

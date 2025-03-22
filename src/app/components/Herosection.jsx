@@ -38,7 +38,7 @@ const Portfolio = () => {
 
         {/* Mobile Menu (Fix: `h-screen` to prevent overflow) */}
         <div
-          className={`fixed inset-0 bg-[#1e2a47]/90 backdrop-blur-lg flex flex-col items-center justify-center transition-all duration-300 h-[20rem] mt-[2.2rem]  ${
+          className={`fixed inset-0 bg-[#1e2a47]/90 backdrop-blur-lg flex flex-col items-center justify-center transition-all duration-300 h-[20rem] mt-[2.2rem] ${
             menuOpen ? "opacity-100 visible sm:hidden" : "opacity-0 invisible"
           }`}
         >
@@ -72,7 +72,9 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="mt-4 md:mt-0">
-          <div className="w-[16rem] sm:w-[20rem] md:w-[20rem] h-[16rem] sm:h-[18rem] md:h-[20rem] bg-[#1e2a47] rounded-full flex items-center justify-center">
+          {/* Image with hover movement */}
+          <div className="mt-4 md:mt-0">
+          <div className="w-[16rem] sm:w-[20rem] md:w-[20rem] h-[16rem] sm:h-[18rem] md:h-[20rem] bg-[#1e2a47] rounded-full flex items-center justify-center animate-float">
             <img
               src="/me.png"
               alt="Avatar"
@@ -81,7 +83,22 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+
+      {/* Tailwind Custom Styles for Floating Animation */}
+      <style jsx global>{`
+        @keyframes float {
+          0% { transform: translateY(0px); }
+          50% { transform: translateY(-10px); }
+          100% { transform: translateY(0px); }
+        }
+        .animate-float {
+          animation: float 3s ease-in-out infinite;
+        }
+      `}</style>
     </div>
+        </div>
+      
+    
   );
 };
 
