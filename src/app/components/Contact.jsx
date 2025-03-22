@@ -28,7 +28,7 @@ const Contact = () => {
         <div className="space-y-6">
           {/* Email */}
           <a
-            href="mailto:mandeep@gmail.com"
+            href="mailto:mandeeps09025@gmail.com"
             className="flex items-center gap-4 text-lg hover:text-blue-400 transition duration-300 justify-center"
           >
             <FaEnvelope className="text-2xl text-blue-400" />
