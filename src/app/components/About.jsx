@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Portfolio = () => {
   return (
-    <div className=" text-white p-6 sm:p-4  h-[46rem] sm:h-[38rem]">
+    <div className=" text-white p-6 sm:p-4  h-[47.3rem] sm:h-[38rem]">
       <div className="text-4xl text-center font-bold ml-4 text-white mb-8 sm:text-3xl md:text-4xl lg:text-5xl">About Me</div>
       <section 
         id="about" 

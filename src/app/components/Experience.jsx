@@ -1,6 +1,6 @@
 export default function Experience() {
   return (
-      <section id="experience" className=" text-white p-4  lg:p-16 h-[48rem] sm:h-[58rem]">
+      <section id="experience" className=" text-white p-4  lg:p-16 h-[50rem] sm:h-[58rem]">
           <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold text-center mt-5  ">EXPERIENCE</h2>
           
           <div className="flex flex-wrap justify-center gap-6 sm:gap-10 mt-10 sm:mt-14">
@@ -32,7 +32,7 @@ function ExperienceCard({ year, role, description }) {
       <div className="relative pl-4 sm:pl-6 md:pl-8">
           <div className="absolute left-[-0.75rem] sm:left-[-1rem] md:left-[-1.25rem] top-[1.5rem] sm:top-[2rem] w-3 h-3 sm:w-4 sm:h-4 bg-blue-500 rounded-full"></div>
           <p className="text-xs sm:text-sm text-gray-400 mt-4 sm:mt-6 md:mt-8">{year}</p>
-          <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">{role}</h3>
+          <h3 className="text-2xl sm:text-xl md:text-2xl font-bold text-white">{role}</h3>
           <p className="text-[#a8b2d1] mt-2 sm:mt-3 md:mt-4 text-sm sm:text-base md:text-lg">{description}</p>
       </div>
   );
