@@ -3,7 +3,7 @@ export default function Projects() {
     {
       title: "Portfolio Website",
       description: "A personal portfolio website built with React and Tailwind CSS.",
-      github: "https://github.com/yourusername/portfolio",
+      github: "https://github.com/Mandeepsingh0008/portfolio.git",
       demo: "https://yourportfolio.com",
     },
     {
@@ -25,9 +25,9 @@ export default function Projects() {
       demo: "https://yourtaskmanager.com",
     },
     {
-      title: "Alpha",
+      title: "Codeware IT",
       description: "A task management app with drag-and-drop functionality.",
-      github: "https://github.com/Mandeepsingh0008/alpha.git",
+      github: "httpshttps://github.com/Mandeepsingh0008/codeware-IT.git",
       demo: "https://yourtaskmanager.com",
     },
   ];

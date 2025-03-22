@@ -17,12 +17,12 @@ const Portfolio = () => {
   return (
     <div className="flex flex-col items-center justify-center text-white px-4 sm:px-8 md:px-16 lg:px-24 relative min-h-screen overflow-hidden">
       {/* Navbar (Unchanged) */}
-      <nav className="absolute top-10 left-5 sm:left-10 flex justify-between items-center w-full px-6 sm:px-12 lg:px-24">
+      <nav className="absolute top-10 left-5 sm:left-10 flex justify-between items-center w-full px-3 sm:px-12 lg:px-24">
         <div className="text-3xl font-semibold">Profile</div>
         
         {/* Hamburger Menu (Hidden on `sm` and above) */}
         <button
-          className="sm:hidden text-white text-3xl z-50 "
+          className="sm:hidden text-white text-3xl z-50 mr-[1.6rem] "
           onClick={() => setMenuOpen(!menuOpen)}
         >
           {menuOpen ? <FiX /> : <FiMenu />}
@@ -38,7 +38,7 @@ const Portfolio = () => {
 
         {/* Mobile Menu (Fix: `h-screen` to prevent overflow) */}
         <div
-          className={`fixed inset-0 bg-[#1e2a47]/90 backdrop-blur-lg flex flex-col items-center justify-center transition-all duration-300 h-[20rem] mt-[2.2rem] ${
+          className={`fixed inset-0 bg-[#1e2a47]/90 backdrop-blur-lg flex flex-col items-center justify-center transition-all duration-300 h-[20rem] mt-[2.2rem]  ${
             menuOpen ? "opacity-100 visible sm:hidden" : "opacity-0 invisible"
           }`}
         >
@@ -59,7 +59,7 @@ const Portfolio = () => {
             I'm a passionate full-stack developer with <strong>6 months</strong> of hands-on experience in <strong>React</strong> and <strong>Node.js</strong>. I specialize in building efficient, scalable web applications. Let’s connect and bring your ideas to life!
           </p>
           <div className="mt-6 flex justify-center md:justify-start space-x-4">
-            <a href="c:\Users\hp\OneDrive\Desktop\photoshop\mandeep resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:ap:b57a57c4-4cf0-4e19-b2ac-25964caf1d3d.pdf" target="_blank" rel="noopener noreferrer">
               <button className="px-4 sm:px-6 py-2 bg-[#1e90ff] hover:bg-[#187bcd] rounded-full text-base sm:text-lg font-semibold">   
                 My Resume
               </button>
