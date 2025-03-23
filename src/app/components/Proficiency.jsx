@@ -15,7 +15,7 @@ const Progress = ({ value }) => (
 
 export default function ProficiencyPage() {
   return (
-    <div className="flex flex-col items-center text-center px-4   lg:mt-16 h-[42rem] sm:h-[47rem] mt-[4.5rem]">
+    <div className="flex flex-col items-center text-center px-4 lg:mt-16 h-[42rem] sm:h-[47rem] ">
       <motion.h1
         className="text-3xl sm:text-4xl font-extrabold text-white mb-6 sm:mb-8 mt-10"
         initial={{ opacity: 0, y: -20 }}

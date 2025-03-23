@@ -9,7 +9,7 @@ const Portfolio = () => {
       <div className="text-4xl text-center font-bold ml-4 text-white mb-8 sm:text-3xl md:text-4xl lg:text-5xl">About Me</div>
       <section 
         id="about" 
-        className="flex flex-col md:flex-row items-center bg-[#1e2a47] p-6 rounded-lg shadow-lg gap-6 md:gap-12 sm:p-3 md:p-6 lg:p-10 sm:mt-[3rem]"
+        className="flex flex-col md:flex-row items-center bg-[#1e2a47] p-6 rounded-lg shadow-lg gap-6 md:gap-12 sm:p-3 md:p-6 lg:p-10 sm:mt-[3rem] mt-[3rem]"
       >
         <motion.img
           src="/about.png" 

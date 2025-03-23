@@ -4,31 +4,31 @@ export default function Projects() {
       title: "Portfolio Website",
       description: "A personal portfolio website built with React and Tailwind CSS.",
       github: "https://github.com/Mandeepsingh0008/portfolio.git",
-      demo: "https://yourportfolio.com",
+      demo: "mandeepprofile.netlify.app",
     },
     {
       title: "E-commerce Platform",
       description: "A full-stack e-commerce platform with user authentication and payment integration.",
       github: "https://github.com/Mandeepsingh0008/ecommerce.git",
-      demo: "https://yourecommerce.com",
+      demo: "cheery-travesseiro-523529.netlify.app",
     },
     {
       title: "Alpha",
       description: "A task management app with drag-and-drop functionality.",
       github: "https://github.com/Mandeepsingh0008/alpha.git",
-      demo: "https://yourtaskmanager.com",
+      demo: "https://thesislogixx.netlify.app/",
     },
     {
       title: "Music",
       description: "A task management app with drag-and-drop functionality.",
       github: "https://github.com/Mandeepsingh0008/music.git",
-      demo: "https://yourtaskmanager.com",
+      demo: "deft-smakager-d3840d.netlify.app",
     },
     {
       title: "Codeware IT",
       description: "A task management app with drag-and-drop functionality.",
       github: "httpshttps://github.com/Mandeepsingh0008/codeware-IT.git",
-      demo: "https://yourtaskmanager.com",
+      demo: "https://codewareitpvtltd.netlify.app/",
     },
   ];
 
@@ -37,7 +37,7 @@ export default function Projects() {
       id="projects"
       className="py-6  text-white p-4 sm:p-6 lg:p-10 "
     >
-      <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10 mt-[2rem]">PROJECTS</h2>
+      <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10 mt-[3rem]">PROJECTS</h2>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projectData.map((project, index) => (
           <div key={index} className="bg-[#1e2a47] p-6 sm:p-4 rounded-lg shadow-lg transition transform hover:scale-105">
