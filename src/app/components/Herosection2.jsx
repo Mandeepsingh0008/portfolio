@@ -13,7 +13,7 @@ export default function Herosection2() {
             I'm a passionate full-stack developer with <strong>6 months</strong> of hands-on experience in <strong>React</strong> and <strong>Node.js</strong>. I specialize in building efficient, scalable web applications. Let’s connect and bring your ideas to life!
           </p>
           <div className="mt-6 flex justify-center md:justify-start space-x-4">
-            <a href="https://acrobat.adobe.com/id/urn:aaid:sc:ap:b57a57c4-4cf0-4e19-b2ac-25964caf1d3d.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1wCw3TDh4Y7oNofNqdMFfCAn0l0ubvu4L/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <button className="px-4 sm:px-6 py-2 bg-[#1e90ff] hover:bg-[#187bcd] rounded-full text-base sm:text-lg font-semibold">   
                 My Resume
               </button>

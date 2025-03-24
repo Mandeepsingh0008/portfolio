@@ -1,7 +1,7 @@
 export default function Experience() {
   return (
       <section id="experience" className=" text-white p-4  lg:p-16 h-[58rem] sm:h-[58rem]">
-          <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold text-center mt-10  ">EXPERIENCE</h2>
+          <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold text-center mt-[2rem]  ">EXPERIENCE</h2>
           
           <div className="flex flex-wrap justify-center gap-6 sm:gap-10 mt-10 sm:mt-14">
               <img src="/html.png" alt="HTML" className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24" />
