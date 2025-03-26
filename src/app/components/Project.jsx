@@ -10,7 +10,7 @@ export default function Projects() {
       title: "E-commerce Platform",
       description: "A full-stack e-commerce platform with user authentication and payment integration.",
       github: "https://github.com/Mandeepsingh0008/ecommerce.git",
-      demo: "ecommmerce1.netlify.app",
+      demo: "https://ecommerce05.netlify.app",
     },
     {
       title: "Alpha",
@@ -22,7 +22,7 @@ export default function Projects() {
       title: "Music",
       description: "A task management app with drag-and-drop functionality.",
       github: "https://github.com/Mandeepsingh0008/music.git",
-      demo: "deft-smakager-d3840d.netlify.app",
+      demo: "https://dcmusic.netlify.app/",
     },
     {
       title: "Codeware IT",
